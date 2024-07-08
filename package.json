@@ -1,0 +1,37 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build-fullcalendar": "cd nova-components/Fullcalendar && npm run dev",
+        "build-fullcalendar-prod": "cd nova-components/Fullcalendar && npm run prod",
+        "build-analytics": "cd nova-components/Analytics && npm run dev",
+        "build-analytics-prod": "cd nova-components/Analytics && npm run prod",
+        "build-full-calendar": "cd nova-components/FullCalendar && npm run dev",
+        "build-full-calendar-prod": "cd nova-components/FullCalendar && npm run prod",
+        "build-openaichat": "cd nova-components/Openaichat && npm run dev",
+        "build-openaichat-prod": "cd nova-components/Openaichat && npm run prod"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-vue": "^4.5.0",
+        "autoprefixer": "^10.4.19",
+        "axios": "^1.6.4",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.39",
+        "sass": "^1.56.1",
+        "tailwindcss": "^3.4.4",
+        "vite": "^5.0.0",
+        "vue": "^3.2.37"
+    },
+    "dependencies": {
+        "@fullcalendar/core": "^6.1.14",
+        "@fullcalendar/daygrid": "^6.1.14",
+        "@fullcalendar/interaction": "^6.1.14",
+        "@fullcalendar/timegrid": "^6.1.14",
+        "@fullcalendar/vue3": "^6.1.14",
+        "ajv": "^6.12.6"
+    }
+}
